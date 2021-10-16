@@ -1,0 +1,72 @@
+h1
+{
+    color:red;
+}
+
+.green,
+p{
+    color:darkgreen;
+}
+
+p1,
+ul,
+.brown{
+    color:rgb(128, 0, 0);
+}
+
+.black{
+    color:black;
+}
+
+.pink{
+    color:pink;
+}
+
+.blue,
+.age{
+    color:blue;
+}
+
+.lightgreen{
+    color:lightgreen;
+}
+
+.yellow{
+    color:yellow;
+}
+
+.brown{
+    color:brown;
+}
+
+.orange{
+    color:orange;
+}
+
+table,
+th,
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th{
+    background-color:darkseagreen;
+  }
+
+.favecolor{
+    color:green;
+}
+
+.favefood{
+    color:orange;
+}
+
+.image,
+.name,
+.red{
+      color:red;
+  }
+
+footer{
+    text-align: center;
+}
