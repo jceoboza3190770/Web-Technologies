@@ -1,0 +1,78 @@
+.article{
+    color: skyblue;
+    font-style: italic;
+    padding: 30px;
+    background: lightgray;
+}
+
+.article1{
+    font-style: italic;
+    padding: 30px;
+    background: lightgray;
+}
+
+#header1{
+    color: skyblue;
+    font-style: italic;
+
+}
+
+.a{
+    color: skyblue;
+    font: italic;
+
+}
+
+a:visited {
+    color: pink;
+}
+  
+a:hover {
+    color: green;
+    background-color: yellow;
+}
+  
+a:active {
+    color: orange;
+}
+
+body{
+    border-top: 5px solid skyblue;
+}
+
+h3{
+    font-style: bold;
+    color: skyblue;
+}
+
+h1::after{
+    content: "TOP";
+    background-color: yellow;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 5px;
+    top: -15px;
+    right: -25px;
+}
+
+ul:last-child(1){
+    font-style: italic;
+}
+
+li::nth-child(odd){
+
+    font-style: bold;
+}
+
+aside{
+    border-top: 5px solid skyblue;
+    background-color: lightgrey;
+    border-bottom: 5px solid skyblue;
+}
+
+.button{
+    margin-right: auto;
+    font-size: 15px;
+    width: 50px;
+    height: 40px;
+}
