@@ -1,0 +1,99 @@
+.top{
+    font-style: italic;
+    font-weight: bolder;
+    color: skyblue;
+    font-style: strong;
+    background: gainsboro;
+    padding: 8px;
+}
+
+body{
+    
+    border-top: 5px solid skyblue;
+}
+
+.middle{
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    font-size: 15px;
+    padding: 10px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a{
+    color: skyblue;
+}
+
+a:visited{
+    color: pink;
+}
+  
+a:hover{
+    color: yellow;
+    background-color: violet;
+}
+  
+a:active {
+    color: black;
+}
+
+nav{
+    margin-top: -40px;
+    float: right;
+    font-size: 10px;
+}
+
+h1{
+    color: skyblue;
+}
+
+h1::after{
+    color: black;
+    content: "TOP";
+    background-color: yellow;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 5px;
+    top: -15px;
+    right: 50px;
+}
+
+h3{
+    color: skyblue;
+}
+
+.p1{
+    color: skyblue;
+}
+.relatedposts{
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    height: auto;
+    border-top: 5px solid skyblue;
+    border-bottom: 5px solid skyblue;
+    background-color: gainsboro;
+    float: right;
+}
+.footer{
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    clear: both;
+}
+
+.likebutton{
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    font-size: 15px;
+    margin-top: 20px;
+}
