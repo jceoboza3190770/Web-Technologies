@@ -1,0 +1,93 @@
+.topborder{
+    border-style: solid;
+    border-color: blue;
+    border-top-width: 2px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color:skyblue;
+}
+
+h2::after{
+    color: black;
+    content: "TOP";
+    background-color: yellow;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 5px;
+    top: -15px;
+    right: 50px;
+}
+
+h3{
+    color: skyblue;
+}
+
+.pborder{
+    color:white;
+    background-color: black;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px 10px 10px 1px;
+    float: middle;
+    padding: 1px 10px 10px 20px;
+    
+}
+
+.right{
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left{
+    color: skyblue;
+    font-style: normal;
+    padding: 16px;
+    background-color: gainsboro;
+    border-style: solid;
+    border-color: skyblue white brown white;
+    border-width: 5px 0px 5px 0px;
+    float: left;
+    clear: both;
+}
+
+a{
+    color: skyblue;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.bottomleft{
+    float: left;
+    border-style: solid;
+    border-color: skyblue;
+    border-width: 5px 0px 5px 0px;
+    background-color: gainsboro;
+    clear: both;
+}
+
+.buttonleft{
+    clear: both;
+}
+
+button{
+    float: middle;
+    font-size: 15px;
+    margin: 30px;
+}
+
+h4::after{
+    float: right;
+    color: black;
+    content: "HOT";
+    background-color: yellow;
+    font-size: 12px;
+    font-weight: bold;
+    top: 100px;
+    right: 100px;
+}

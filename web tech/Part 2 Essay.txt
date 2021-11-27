@@ -1,0 +1,26 @@
+1. Differentiate the following CSS selectors (20 pts)
+
+A. Combining selectors 
+- The combining selectors is the one that explains what is about the relationship with different selectors.
+
+B. Class and ID selectors - 
+The class and ID selectors are used to pick certain parts of the code.
+The class selector uses "" character for the one certain code to use on and 
+the ID selectors uses the # character for the code you want to use it on.
+
+C. Pseudo-classes
+- It use to create a special design to put in an element.
+
+2. Differentiate the following hyperlinks styling attributes (20pts)
+
+A. a:hover
+- It is where you hover your mouse on your element and shows a different background or color of that certain element.
+
+B a:active
+- It is when you click the element and shows a different style when it is interacted with your mouse either by clicking or holding it from the user.
+
+C. a:visited
+- It is shown when you click a link that is already been click or visited earlier by the user.
+
+D. a:link
+- This is the part of the destination of the element that leads to the user from a certain part that is redirecting the user to a new page/part.
